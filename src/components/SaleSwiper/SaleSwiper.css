@@ -1,0 +1,20 @@
+/* start sale__section section  */
+.sale__section .swiper-pagination-bullet {
+    display: none !important;
+}
+
+
+.sale__section{
+    position: relative;
+    overflow: hidden;
+}
+
+.sale__section .swiper{
+    padding: 2rem 0;
+}
+.sale__section .swiper .swiper__item{
+    height: 100% ;
+    cursor: grab;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
+}
+

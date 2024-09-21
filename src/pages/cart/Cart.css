@@ -1,0 +1,131 @@
+.cart__container{
+    margin-top: 4rem;
+    padding: 1rem ;
+    display: flex;
+    flex-direction: column;
+}
+.total__price{
+    font-weight: 600;
+    font-size: 1.5rem;
+    color: var(--primary-color);
+}
+.empty__cart{
+    font-size: 1.5rem;
+    color: var(--primary-color);    
+    margin: 1rem 0; 
+}
+
+.cart__btns button{
+    margin-right: 1rem;
+    border: none;
+    outline: none;
+    padding: 1rem;
+    color: var(--light-color);
+    border-radius: .5rem;
+    cursor: pointer;
+}
+.cart__btns .checkout{
+    background-color: green;
+}
+.cart__btns .clear__cart{
+    background-color: var(--primary-color);
+}
+.cart__list{
+    flex-grow: 1;
+}
+
+.cart__item{
+    display: flex;
+    justify-content: space-between;
+    margin: 1rem 0;
+    box-shadow: rgba(33, 35, 38, 0.1) 0px 10px 10px -10px;
+}
+
+
+.cart__item .item__details{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    overflow: hidden;
+    
+}
+
+
+.item__details img{
+    height: 4rem;
+    width: 3rem;
+    object-fit: contain;
+}
+
+
+.item__details p{
+    margin:0 1rem;
+    text-overflow: ellipsis; 
+    white-space: nowrap; 
+    overflow: hidden; 
+}
+
+
+.control__btns{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    
+}
+.control__btns .qty{ 
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* flex-direction: column; */
+    margin-right: 1rem;
+}
+.control__btns .qty p{
+    margin: 0;
+    font-size: 1.2rem;
+    font-weight: 400;
+    background-color: var(--dark-color);
+    color: var(--light-color);
+    width: 1.5rem;
+    height: 1.5rem;
+    cursor: pointer;
+    margin:.5rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: .3rem;  
+}
+
+.control__btns .qty button{ 
+        border: none;
+        width: 1.5rem;
+        height: 1.5rem;
+        cursor: pointer;
+        margin:  0 .5rem;
+        display: flex;
+        justify-content: center;
+        align-items: center;  
+        border-radius: .3rem;
+        transition: background-color .3s ease;  
+        font-size: 1.2rem;
+        background-color: transparent;
+        border: 1px solid var(--primary-color);
+}
+    
+.remove__button{
+    border: none;
+    outline: none;
+    border-radius: .5rem;
+    background-color: var(--primary-color);
+    color: var(--light-color);
+    cursor: pointer;
+    width: 2rem;
+    height: 2rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.remove__button:hover{
+    background-color: brown;
+}
+
+

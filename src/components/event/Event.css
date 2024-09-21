@@ -1,0 +1,215 @@
+
+/* start apple event style */
+.events{
+    overflow: hidden;
+    background-image: url('../../assets/images/events/event.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    position: relative;
+  padding-top: 1rem;
+}
+
+.event__details  {
+    margin: 0 auto;
+    padding: 2rem;
+    background: rgba(0, 0, 0, .3);
+}
+
+.event__details  .event__info {
+    height: 100%;
+}
+
+.event__details  .event__info  .event__title {
+    font-size:3rem;
+    font-weight: 900;
+    padding: 1rem 0;
+    text-transform: uppercase;
+    color: var(--light-color);
+    text-shadow: 4px 2px 48px rgba(0,0,0,1);
+}
+
+.event__details  .event__info .event__description {
+    font-size: 1.5rem;
+    max-width: 600px;
+    text-align: justify;
+    color: var(--light-color);
+
+}
+.events .countdown__wrapper{
+   padding: 2rem;
+}
+  .countdown__wrapper >div{
+
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+    text-shadow: 4px 2px 48px rgba(0,0,0,1);
+}
+.events .countdown__data h1{
+    background-color: var(--secondary-color);
+}
+  .events .countdown__data h1, .events .countdown__data h5{
+    color: var(--light-color);
+    font-weight: 900    ;
+    font-size: 1.8rem;
+    border: 1px solid var(--light-color);
+    width: 100%;
+    text-align: center;
+    padding: .5rem;
+    
+}
+  
+.events .countdown__data h5{
+    font-size: 7rem;
+}
+
+.countdown__data{
+    max-width: 700px;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));
+    gap: 1rem;
+    padding: 1rem;
+    margin: 0 auto;
+  }
+  .countdown__data > div{
+    border-radius: .5rem;
+    cursor: pointer;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    
+  }
+  
+  .countdown__data h1{
+   text-transform: uppercase;
+    font-weight: 500;
+    width: 100%;
+    text-align: center;  
+  }
+
+
+/* end apple event style */
+.event__products{
+    padding: 2rem;
+    
+}
+.events .slide__container {
+    display: flex;
+    overflow: hidden;
+    margin-top: 3rem;
+    padding: 2rem;
+    width: calc(300px * 18);
+    animation: scroll 60s linear infinite;
+}
+
+.events .slide__container:hover {
+    animation-play-state: paused;
+}
+
+.events .slide__container  .slide__card {
+    display: flex;
+    cursor: pointer;
+    margin-right: 1rem;
+    padding: 0 .5rem;
+    border-radius: 8px;
+    align-items: center;
+    perspective: 100;
+    color: var(--light-color);
+    background-color: rgba(0, 0, 0, 0.6);
+
+}
+.events .slide__card .slide__info_title {
+    font-size: 1.4rem;
+    text-transform: uppercase;
+}
+.events .slide__card .slide__info_price {
+    font-size: 1.5rem;
+}
+.events .slide__card .slide__card_image {
+    width: 10rem;
+    height: 10rem;
+    border-radius: .5rem;
+}
+
+.events .slide__card .slide__card_image img {
+    height: 100%;
+    width: 100%;
+    scale: .8;
+    transition: transform 1s;
+    border-radius: .5rem;
+}
+.events .slide__info_rate{
+    color: var(--primary-color);
+    margin: .5rem 0;
+}
+.events .slide__container:hover {
+    animation-play-state: paused;
+}
+
+
+@keyframes scroll {
+
+    0% {
+        transform: translateX(0);
+    }
+
+    100% {
+        transform: translateX(calc(-250px * 9));
+    }
+}
+
+
+
+@media (max-width:767px) {
+
+    
+    /* start apple event style */
+    .events{
+        padding: 0;
+    }
+    
+    .event__details  {
+        padding: .5rem;
+    }
+    
+    
+    .event__details  .event__info  .event__title {
+        font-size:2rem;
+        font-weight: 900;
+        padding:  0;
+    }
+    
+    .event__details  .event__info .event__description {
+        font-size: 1.2rem;
+        width: 100%;
+    }
+    .events .countdown__wrapper{
+       padding: 0;
+    }
+    .countdown__data{
+       width: 100%;
+        grid-template-columns: 1fr 1fr;
+      }
+    
+    
+      .events .countdown__data h1, .events .countdown__data h5{
+        font-weight: 900    ;
+        font-size: 1.5rem;    
+    }
+      
+    .events .countdown__data h5{
+        font-size: 3rem;
+    }
+    
+    
+    
+    .events .slide__container  .slide__card {
+        margin-right:.3rem;
+    }
+    .events .slide__card .slide__info_title {
+        font-size: 1.2rem;
+    }
+     
+}
+    

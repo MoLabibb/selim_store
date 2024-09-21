@@ -1,0 +1,22 @@
+.hero__section .hero__swiper{
+    width: 100%;
+    height: 400px;
+}
+
+.hero__section  .hero__swiper .hero__slide{
+    height: 100%;
+    width: 100%;
+}
+.hero__section  .hero__slide  img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    object-fit:fill;
+}
+
+@media (max-width: 540px) {
+    .hero__section .hero__swiper{
+        height:200px;
+        
+    }
+}
