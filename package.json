@@ -2,11 +2,7 @@
   "name": "selim",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://molabibb.github.io/selim",
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/molabibb/selim-store.git"
-  },
+  "homepage": "https://molabibb.github.io/react-ecommerce-store-redux",
   "dependencies": {
     "@reduxjs/toolkit": "^2.2.7",
     "@testing-library/jest-dom": "^5.17.0",
