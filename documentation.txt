@@ -1,6 +1,0 @@
-make route and layout in  aseperate file 
-sliders:
-reusable slider using swiper.js
-make a folder contains all sliders component 
-
-
