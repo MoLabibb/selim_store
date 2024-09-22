@@ -6,10 +6,10 @@ import Cart from '../pages/cart/Cart'
 function Routers() {
   return<Routes>
       <Route path='/' element = { <Navigate to= 'home' />} />
-      <Route path='/selim' element={<Home />} />
       <Route path='home' element={<Home />} />
       <Route path='/shop' element={<Shop />} />
       <Route path='/cart' element={<Cart />} />
+      
   </Routes>
 }
   
