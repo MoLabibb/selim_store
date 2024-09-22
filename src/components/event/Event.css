@@ -1,5 +1,4 @@
 
-/* start apple event style */
 .events{
     overflow: hidden;
     background-image: url('../../assets/images/events/event.jpg');
@@ -163,8 +162,6 @@
 
 @media (max-width:767px) {
 
-    
-    /* start apple event style */
     .events{
         padding: 0;
     }

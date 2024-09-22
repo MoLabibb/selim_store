@@ -1,4 +1,3 @@
-// Cart.js
 import React from 'react';
 import './Cart.css';
 import { QTY_INCREMENT, QTY_DECREMENT, REMOVE_FROM_CART, CLEAR_CART } from '../../redux/features/cartSlice';
@@ -21,7 +20,8 @@ const Cart = () => {
             {cartItems.length > 0 ? 
             <div className="cart__btns">
                 <button className='clear__cart' onClick={() => dispatch(CLEAR_CART())}>Clear Cart</button>
-                <button className='checkout' onClick={() => window.location.href = "/checkout"}>Checkout</button>
+                {/* <button className='checkout' onClick={() => window.location.href = "/checkout"}>Checkout</button> */}
+                <button className='checkout'>Checkout</button>
             </div>: ' '}
 
 

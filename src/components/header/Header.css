@@ -43,38 +43,13 @@
     align-items: center;
     justify-content: center;
     position: relative;
-}
-.logo h1::after{
-    content: "store";
-    position: absolute;
-    bottom: 0rem;
-    right: -3rem;
-    transition: opacity.5s ease-in-out;
-    font-family: 'Best Signature Font', sans-serif;
-    font-size: 1.5rem;
-    font-weight: 900;
-    color: var(--primary-color);
+    font-size: 1rem;
+    transform: scaleX(2.5);
+    letter-spacing: 1px;
 }
 
-.logo h1 span{
-    font-size:1.3rem;
-    text-transform: uppercase;
-    font-weight: 900;
-    height: 100%;
-    padding:0;
-    margin:0.4rem;
-    height: fit-content;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    -webkit-transform:scale(2.0, 1.0);
-    -moz-transform:scale(2.0, 1.0);
-    -ms-transform:scale(2.0, 1.0);
-    -o-transform:scale(2.0, 1.0);
-    transform:scale(2.0,1.0);
-    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
 
-}
+
 .nav__links{
     height: 100%;
     display: flex;

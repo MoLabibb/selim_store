@@ -9,7 +9,7 @@ import './PriceDrop.css'
 
 function PriceDrop({ products }) {  
     if (!products || products.length === 0) {
-        return <div>No products available</div>; // Fallback UI
+        return <div>No products available</div>; 
     }
     return (
 <Swiper className='swiper' modules={[Navigation, Pagination, Scrollbar, A11y, Autoplay]} spaceBetween={5} navigation  loop='true' centeredSlides={false}

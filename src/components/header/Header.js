@@ -36,7 +36,7 @@ function Header() {
                 </div>
 
                 <div className='logo'>
-                  <NavLink className='logo__nav' to={'/'}><h1><span>s</span><span>e</span><span>l</span><span>i</span><span>m</span></h1></NavLink>
+                  <NavLink className='logo__nav' to={'/'}><h1>SELIM</h1></NavLink>
                 </div>
 
 
